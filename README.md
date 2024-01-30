@@ -1,4 +1,4 @@
-# Atividade-de-Linux---Compass
+# Atividade-de-Linux--Compass
 Atividade da Bolsa de Estudos
 
 Projeto para Bolsa de Estudos DevSecOps, da Compass Uol.
