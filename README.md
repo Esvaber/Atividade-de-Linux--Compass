@@ -30,4 +30,6 @@ Descrição das exigências:
 
 <b><i>***Importante: Desligue a máquina quando não for utilizar, será descontado pontos de máquinas que permanecerem ligadas em períodos fora de uso.</b></i><br><br>
 Entrega do PPT dia <b>09/02/24</b> apresentação dia <b>12/02/24</b><br>
-Entrega do GITHUB dia <b>09/02/24</b> e apresentação dia <b>13/02/24</b>
+Entrega do GITHUB dia <b>09/02/24</b> e apresentação dia <b>13/02/24</b><br><br>
+
+<a href="https://github.com/Esvaber/Atividade-de-Linux---Compass/wiki"> Clique aqui para visitar a Wiki do Projeto</a>
