@@ -7,7 +7,7 @@ Aqui será construído a apresentação de todos os passos necessários para ent
 
 Descrição das exigências:
 
-Requisitos AWS:
+<b>Requisitos AWS:</b>
 <ul>
   <li>Gerar uma chave pública para acesso ao ambiente;</li>
   <li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li>
@@ -16,16 +16,17 @@ Requisitos AWS:
 </ul>
 
 Requisitos no linux:
-Configurar o NFS entregue;
-Criar um diretorio dentro do filesystem do NFS com seu nome;
-Subir um apache no servidor - o apache deve estar online e rodando;
-Criar um script que valide se o serviço esta online e envie o resultado da
-validação para o seu diretorio no nfs;
-O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline;
-O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE;
-Preparar a execução automatizada do script a cada 5 minutos.
-Fazer o versionamento da atividade;
-Fazer a documentação explicando o processo de instalação do Linux.
+<ul>
+  <li>Configurar o NFS entregue;</li>
+  <li>Criar um diretorio dentro do filesystem do NFS com seu nome;</li>
+  <li>Subir um apache no servidor - o apache deve estar online e rodando;</li>
+  <li>Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretorio no nfs;</li>
+  <li>O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline;</li>
+  <li>O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE;</li>
+  <li>Preparar a execução automatizada do script a cada 5 minutos.</li>
+  <li>Fazer o versionamento da atividade;</li>
+  <li>Fazer a documentação explicando o processo de instalação do Linux.</li>
+</ul>
 
 ***Importante: Desligue a máquina quando não for utilizar, será descontado
 pontos de máquinas que permanecerem ligadas em períodos fora de uso.
