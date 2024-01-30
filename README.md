@@ -15,7 +15,7 @@ Descrição das exigências:
   <li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
 </ul>
 
-Requisitos no linux:
+<b>Requisitos no linux:</b>
 <ul>
   <li>Configurar o NFS entregue;</li>
   <li>Criar um diretorio dentro do filesystem do NFS com seu nome;</li>
@@ -28,7 +28,6 @@ Requisitos no linux:
   <li>Fazer a documentação explicando o processo de instalação do Linux.</li>
 </ul>
 
-***Importante: Desligue a máquina quando não for utilizar, será descontado
-pontos de máquinas que permanecerem ligadas em períodos fora de uso.
-Entrega do PPT dia 09/02/24 apresentação dia 12/02/24
+<b><i>***Importante: Desligue a máquina quando não for utilizar, será descontado pontos de máquinas que permanecerem ligadas em períodos fora de uso.</b></i><br>
+Entrega do PPT dia 09/02/24 apresentação dia 12/02/24<br>
 Entrega do GITHUB dia 09/02/24 e apresentação dia 13/02/24
