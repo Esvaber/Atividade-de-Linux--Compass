@@ -28,6 +28,6 @@ Descrição das exigências:
   <li>Fazer a documentação explicando o processo de instalação do Linux.</li>
 </ul>
 
-<b><i>***Importante: Desligue a máquina quando não for utilizar, será descontado pontos de máquinas que permanecerem ligadas em períodos fora de uso.</b></i><br>
-Entrega do PPT dia 09/02/24 apresentação dia 12/02/24<br>
-Entrega do GITHUB dia 09/02/24 e apresentação dia 13/02/24
+<b><i>***Importante: Desligue a máquina quando não for utilizar, será descontado pontos de máquinas que permanecerem ligadas em períodos fora de uso.</b></i><br><br>
+Entrega do PPT dia <b>09/02/24</b> apresentação dia <b>12/02/24</b><br>
+Entrega do GITHUB dia <b>09/02/24</b> e apresentação dia <b>13/02/24</b>
