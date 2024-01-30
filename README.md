@@ -8,12 +8,12 @@ Aqui será construído a apresentação de todos os passos necessários para ent
 Descrição das exigências:
 
 Requisitos AWS:
-<ol>
-<li>Gerar uma chave pública para acesso ao ambiente;</li>
-<li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li>
-<li>Gerar 1 elastic IP e anexar à instância EC2;</li>
-<li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
-</ol>
+<ul>
+  <li>Gerar uma chave pública para acesso ao ambiente;</li>
+  <li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li>
+  <li>Gerar 1 elastic IP e anexar à instância EC2;</li>
+  <li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
+</ul>
 
 Requisitos no linux:
 Configurar o NFS entregue;
