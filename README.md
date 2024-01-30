@@ -7,7 +7,7 @@ Aqui será construído a apresentação de todos os passos necessários para ent
 
 Descrição das exigências:
 
-Requisitos AWS:
+<li>Requisitos AWS:</li>
 Gerar uma chave pública para acesso ao ambiente;
 Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família
 t3.small, 16 GB SSD);
