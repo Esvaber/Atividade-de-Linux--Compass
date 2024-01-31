@@ -3,15 +3,18 @@ Projeto para Bolsa de Estudos DevSecOps, da Compass Uol.
 
 Aqui será construído a apresentação de todos os passos necessários para entregar os pedidos do time responsável pelos alunos da Bolsa.
 
-Descrição das exigências:
+O projeto está dividio em duas partes, que pode ser acessadas pelos links abaixo:
 
-<h1><b>Requisitos AWS</b></h1>
+<h1><a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/edit/main/Requisitos%20AWS/README.md"><b>Requisitos AWS</b></a></h1>
+
 <ul>
-  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/edit/main/Requisitos%20AWS/chave_publica.md#gerar-uma-chave-p%C3%BAblica-para-acesso-ao-ambiente"><li>Gerar uma chave pública para acesso ao ambiente;</li></a>
-  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/edit/main/Requisitos%20AWS/chave_publica.md#gerar-uma-chave-p%C3%BAblica-para-acesso-ao-ambiente"><li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li></a>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#-lista-de-requisitos-"><li>Gerar uma chave pública para acesso ao ambiente;</li></a>
+  <li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li></a>
   <li>Gerar 1 elastic IP e anexar à instância EC2;</li>
   <li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
 </ul>
+
+
 
 <h1><b>Requisitos Linux</b></h1>
 <ul>
