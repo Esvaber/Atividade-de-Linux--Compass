@@ -1,6 +1,4 @@
 # Atividade-de-Linux--Compass
-Atividade da Bolsa de Estudos
-
 Projeto para Bolsa de Estudos DevSecOps, da Compass Uol.
 
 Aqui será construído a apresentação de todos os passos necessários para entregar os pedidos do time responsável pelos alunos da Bolsa.
@@ -15,7 +13,7 @@ Descrição das exigências:
   <li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
 </ul>
 
-<b>Requisitos no linux:</b>
+<h1><a href="https://github.com/Esvaber/Requisitos-Linux"><b>Requisitos Linux</b></a></h1>
 <ul>
   <li>Configurar o NFS entregue;</li>
   <li>Criar um diretorio dentro do filesystem do NFS com seu nome;</li>
