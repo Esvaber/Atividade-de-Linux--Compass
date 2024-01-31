@@ -43,8 +43,9 @@ As opções de preenchimento seguem:
       <li>Regras do grupo de segurança de entrada: nenhuma regra adicionada</li>
     </ul>
   </ul>
-  
+  <li>Configurar armazenamento: 1 disco de 16 GB, gp2 </li>
 </ul>
+Após as configurações, cliquei no botão <i>Executar Instância</i> e aguardei a criação da mesma.
 
 ## Gerar elastic IP e anexar à instância EC2
 
