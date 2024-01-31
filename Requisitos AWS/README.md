@@ -1,5 +1,6 @@
 <h1> Requisitos AWS </h1>
 
+<h3> Lista de requisitos </h3>
 <ul>
   <li>Gerar uma chave pública para acesso ao ambiente;</li></a>
   <li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li></a>
