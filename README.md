@@ -8,10 +8,10 @@ O projeto está dividio em duas partes, que pode ser acessadas pelos links abaix
 <h1><b>Requisitos AWS</b></h1>
 
 <ul>
-  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#-lista-de-requisitos-"><li>Gerar uma chave pública para acesso ao ambiente;</li></a>
-  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#criar-1-inst%C3%A2ncia-ec2-com-o-sistema-operacional-amazon-linux-2"><li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li></a>
-  <li>Gerar 1 elastic IP e anexar à instância EC2;</li>
-  <li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#cria%C3%A7%C3%A3o-de-chave-p%C3%BAblica"><li>Gerar uma chave pública para acesso ao ambiente;</li></a>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#cria%C3%A7%C3%A3o-de-inst%C3%A2ncia-ec2"><li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li></a>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#gerar-elastic-ip-e-anexar-%C3%A0-inst%C3%A2ncia-ec2"><li>Gerar 1 elastic IP e anexar à instância EC2;</li></a>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#liberar-as-portas-de-comunica%C3%A7%C3%A3o-para-acesso-p%C3%BAblico"><li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li></a>
 </ul>
 
 
