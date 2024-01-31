@@ -5,7 +5,7 @@ Aqui será construído a apresentação de todos os passos necessários para ent
 
 Descrição das exigências:
 
-<h1><a href="https://github.com/Esvaber/Requisitos-AWS"><b>Requisitos AWS</b></a></h1>
+<h1><b>Requisitos AWS</b></h1>
 <ul>
   <li>Gerar uma chave pública para acesso ao ambiente;</li>
   <li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li>
@@ -13,7 +13,7 @@ Descrição das exigências:
   <li>Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).</li>
 </ul>
 
-<h1><a href="https://github.com/Esvaber/Requisitos-Linux"><b>Requisitos Linux</b></a></h1>
+<h1><b>Requisitos Linux</b></h1>
 <ul>
   <li>Configurar o NFS entregue;</li>
   <li>Criar um diretorio dentro do filesystem do NFS com seu nome;</li>
