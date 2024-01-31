@@ -5,7 +5,7 @@ Aqui será construído a apresentação de todos os passos necessários para ent
 
 O projeto está dividio em duas partes, que pode ser acessadas pelos links abaixo:
 
-<h1><a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/edit/main/Requisitos%20AWS/README.md"><b>Requisitos AWS</b></a></h1>
+<h1><b>Requisitos AWS</b></h1>
 
 <ul>
   <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/README.md#-lista-de-requisitos-"><li>Gerar uma chave pública para acesso ao ambiente;</li></a>
