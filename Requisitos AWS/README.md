@@ -52,6 +52,7 @@ Após as configurações, clicar no botão <i>Executar Instância</i> e aguardar
 
 ## Gerar elastic IP e anexar à instância EC2
 <ol>
+  <li>Acesso ao EC2</li>
   <li>No grupo <i>Redes e segurança</i>, clicar na opção <i>Ips Elásticos</i></li>
   <li>Clicar no botão <i>Alocar Endereço Ip Elástico</i></li>
 </ol>
@@ -70,4 +71,13 @@ As opções de criação seguem:
   </ul>
 </ul>
 
+Após as configurações a instância teve seu endereço público substituído pelo IP Elástico "100.26.93.38".
+
 ## Liberar as portas de comunicação para acesso público
+<p>A liberação de portas é feita da seguinte maneira:</p>
+<ol>
+  <li>Acesso ao serviço EC2</li>
+  <li>Em <i>Redes e segurança</i>, clicar em <i>Security Groups</i></li>
+  <li>Com o Grupo <i>SG-projeto</i> selecionado, clicar em <i>Ações</i></li>
+  <li>Selecionar a opção <i>Editar regras de entrada</i></li>
+</ol>
