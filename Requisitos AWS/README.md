@@ -1,4 +1,4 @@
-## Gerar uma chave pública para acesso ao ambiente
+## Criação de chave pública
 <p>A criação da chave pública necessita do acesso ao painel da AWS. Ao acessar o painel, segui as seguintes etapas:</p>
 <ol>
   <li>Acesso ao serviço EC2</li>
@@ -13,7 +13,7 @@ Dentro das opções de criação, iremos definir da seguinte maneira:
 </ul>
 <p>Após clicar em <i>Criar par de chaves</i>, é necessário salvar o arquivo gerado para futuro acesso.</p>
 
-## Criar 1 instância EC2 com o sistema operacional Amazon Linux 2
+## Criação de instância EC2
 <p>Com o acesso ao console, fiz os seguintes procedimentos:</p>
 <ul>
   <li>Acesso ao serviço EC2</li>
@@ -21,3 +21,6 @@ Dentro das opções de criação, iremos definir da seguinte maneira:
   <li>Cliquei no botão <i>Executar Instâncias</i>, que me conduz para a tela de criação</li>
 </ul>
 
+## Gerar elastic IP e anexar à instância EC2
+
+## Liberar as portas de comunicação para acesso público
