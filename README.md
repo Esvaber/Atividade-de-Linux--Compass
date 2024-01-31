@@ -7,7 +7,7 @@ Aqui será construído a apresentação de todos os passos necessários para ent
 
 Descrição das exigências:
 
-<a href="https://github.com/Esvaber/Requisitos-AWS"><b>Requisitos AWS:</b></a>
+<a href="https://github.com/Esvaber/Requisitos-AWS"><h1><b>Requisitos AWS</b></h1></a>
 <ul>
   <li>Gerar uma chave pública para acesso ao ambiente;</li>
   <li>Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD);</li>
