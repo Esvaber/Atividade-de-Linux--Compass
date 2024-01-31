@@ -81,3 +81,8 @@ Após as configurações a instância teve seu endereço público substituído p
   <li>Com o Grupo <i>SG-projeto</i> selecionado, clicar em <i>Ações</i></li>
   <li>Selecionar a opção <i>Editar regras de entrada</i></li>
 </ol>
+<p>É necessário as liberações de todas as portas da maneira mostrada na imagem abaixo.</p>
+
+<img src="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20AWS/Portas.JPG">
+
+Após selecionada as portas, clicar em <i>Salvar Regras</i>. As regras estão salvas e a instância pronta para ser acessada de diversas maneiras.
