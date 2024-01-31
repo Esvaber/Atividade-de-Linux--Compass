@@ -3,7 +3,7 @@ Projeto para Bolsa de Estudos DevSecOps, da Compass Uol.
 
 Aqui será construído a apresentação de todos os passos necessários para entregar os pedidos do time responsável pelos alunos da Bolsa.
 
-O projeto está dividio em duas partes, que pode ser acessadas pelos links abaixo:
+O projeto está dividido em duas partes. Seus tópicos podem ser acessados abaixo.
 
 <h1><b>Requisitos AWS</b></h1>
 
