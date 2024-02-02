@@ -43,3 +43,19 @@ Ao concluir o acesso, os seguintes passos devem ser feitos:
 </ul>
 
 ## Subir um apache no servidor
+<ul>
+  <li>Com acesso à instância, rode no terminal o seguinte comando</li>
+  <code>sudo yum -y install httpd</code>
+  <li>Após a instalação, faça a inicialização do serviço</li>
+  <code>sudo service httpd start</code>
+  <li>Para fazer com que o apache rode junto com o boot, digite o comando abaixo</li>
+  <code>sudo systemctl enable httpd</code>
+</ul>
+Após a instalação é necessário a criação de um arquivo html para teste de acesso ao servidor Apache.
+<ul>
+  <li>Acesse o diretório /var/www/html</li>
+  <li>Lá dentro crie um arquivo .html</li>
+  <code>sudo vim <i>nome-do-arquivo</i>.html</code>
+  <li>Dentro do arquivo coloque uma mensagem que possa ser lida no navegador</li>
+  <li>Acesse o arquivo usando o navegador. No meu caso me endereço é http://52.202.207.69/</li>
+</ul>
