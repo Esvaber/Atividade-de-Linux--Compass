@@ -16,7 +16,7 @@ Aqui está todo o escopo do proheot. Ele está dividido em duas partes e seus t�
 
 <h1><b>Requisitos Linux</b></h1>
 <ul>
-  <li>Configurar o NFS entregue</li>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/README.md#configurar-o-nfs"><li>Configurar o NFS entregue</li></a>
   <li>Criar um diretorio dentro do filesystem do NFS com seu nome</li>
   <li>Subir um apache no servidor - o apache deve estar online e rodando</li>
   <li>Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretorio no nfs</li>
