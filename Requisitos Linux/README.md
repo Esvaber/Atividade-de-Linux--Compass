@@ -67,7 +67,6 @@ Após a instalação é necessário a criação de um arquivo html para teste de
 <ul>
   <i><li>O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline</li></i>
   <i><li>O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE</li></i>
-  <i><li>Preparar a execução automatizada do script a cada 5 minutos</li></i>
 </ul>
 
 Após o acesso da instância criada para o projeto, fiz os seguintes procedimentos:
@@ -102,3 +101,6 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
     echo "O Apache está $status" >> "$arquivo"
   </pre>
 </ul>
+
+## Preparar a execução automatizada do script a cada 5 minutos
+
