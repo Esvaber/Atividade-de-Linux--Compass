@@ -57,5 +57,5 @@ Após a instalação é necessário a criação de um arquivo html para teste de
   <li>Lá dentro crie um arquivo .html</li>
   <code>sudo vim <i>nome-do-arquivo</i>.html</code>
   <li>Dentro do arquivo coloque uma mensagem que possa ser lida no navegador</li>
-  <li>Acesse o arquivo usando o navegador. No meu caso me endereço é http://52.202.207.69/</li>
+  <li>Acesse o arquivo usando o navegador. No meu caso meu endereço é http://52.202.207.69/</li>
 </ul>
