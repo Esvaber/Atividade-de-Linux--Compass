@@ -75,5 +75,28 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
   <li>O arquivo foi modificado para permitir sua execução</li>
   <code>chmod +x script.sh</code>
   <li>A partir daí o código usado para o script segue</li>
-  <code></code>
+  <pre>
+    
+    #!/bin/bash
+
+    #Cria um variável com a data no formato dia_mês_ano hh:mm:ss, corrigido para o fuso horário da minha região
+    data=$(TZ='America/Sao_Paulo' date "+%d_%b_%Y %T")
+    
+    #Cria uma variável para o resultado e faz a verificação se o apache está ativo
+    status=""
+    
+    if systemctl is-active "httpd" > /dev/null
+    then
+            status="ativo"
+    else  
+            status="inativo"
+    fi
+        
+    #Cria o arquivo que será salvo no NFS
+    arquivo="/home/ec2-user/efs/${status}_${data}.txt"
+        
+    #Adiciona o resultado e o timestamp dentro do arquivo
+    echo "$data" > "$arquivo"
+    echo "O Apache está $status" >> "$arquivo"
+  </pre>
 </ul>
