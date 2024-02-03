@@ -19,7 +19,7 @@ Aqui está todo o escopo do proheot. Ele está dividido em duas partes e seus t�
   <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/README.md#configurar-o-nfs"><li>Configurar o NFS entregue</li></a>
   <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/README.md#criar-um-diret%C3%B3rio-dentro-do-filesystem-do-nfs-com-meu-nome"><li>Criar um diretorio dentro do filesystem do NFS com seu nome</li></a>
   <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/README.md#subir-um-apache-no-servidor"><li>Subir um apache no servidor - o apache deve estar online e rodando</li></a>
-  <li>Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretorio no nfs</li>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/README.md#criar-um-script-que-valide-se-o-servi%C3%A7o-esta-online-e-envie-o-resultado-da-valida%C3%A7%C3%A3o-para-o-seu-diretorio-no-nfs"><li>Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretorio no nfs</li></a>
   <ul>
     <li>O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline</li>
     <li>O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE</li>
