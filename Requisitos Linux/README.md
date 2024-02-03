@@ -59,3 +59,21 @@ Após a instalação é necessário a criação de um arquivo html para teste de
   <li>Dentro do arquivo coloque uma mensagem que possa ser lida no navegador</li>
   <li>Acesse o arquivo usando o navegador. No meu caso meu endereço é http://52.202.207.69/</li>
 </ul>
+
+## Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretorio no nfs
+<p>Serão feitas as seguintes sub-tarefas da tarefa principal:</p>
+<ul>
+  <i><li>O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline</li></i>
+  <i><li>O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE</li></i>
+  <i><li>Preparar a execução automatizada do script a cada 5 minutos</li></i>
+</ul>
+
+Após o acesso da instância criada para o projeto, fiz os seguintes procedimentos:
+<ul>
+  <li>Usando o usuário root, foi criado, no diretório <i>/home/ec2-user</i>, o arquivo <i>script.sh</i></li>
+  <code>touch script.sh</code>
+  <li>O arquivo foi modificado para permitir sua execução</li>
+  <code>chmod +x script.sh</code>
+  <li>A partir daí o código usado para o script segue</li>
+  <code></code>
+</ul>
