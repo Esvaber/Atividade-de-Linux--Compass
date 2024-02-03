@@ -95,7 +95,7 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
     fi
         
     #Cria o arquivo que será salvo no NFS
-    arquivo="/home/ec2-user/efs/${status}_${data}.txt"
+    arquivo="/home/ec2-user/efs/esvaber/${status}_${data}.txt"
         
     #Adiciona o resultado e o timestamp dentro do arquivo
     echo "$data" > "$arquivo"
