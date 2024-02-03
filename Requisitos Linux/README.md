@@ -60,7 +60,7 @@ Após a instalação é necessário a criação de um arquivo html para teste de
   <li>Acesse o arquivo usando o navegador. No meu caso meu endereço é http://52.202.207.69/</li>
 </ul>
 
-## Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretorio no nfs
+## Criar um script que valide se o serviço esta online e envie o resultado da validação para o seu diretório no nfs
 <p>Serão feitas as seguintes sub-tarefas da tarefa principal:</p>
 <ul>
   <i><li>O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline</li></i>
