@@ -23,8 +23,8 @@ Aqui está todo o escopo do proheot. Ele está dividido em duas partes e seus t�
   <ul>
     <li>O script deve conter - Data HORA + nome do serviço + Status + mensagem personalizada de ONLINE ou offline</li>
     <li>O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE</li>
-    <li>Preparar a execução automatizada do script a cada 5 minutos</li>
   </ul>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/README.md#preparar-a-execu%C3%A7%C3%A3o-automatizada-do-script-a-cada-5-minutos"><li>Preparar a execução automatizada do script a cada 5 minutos</li></a>
   <li>Fazer o versionamento da atividade</li>
   <li>Fazer a documentação explicando o processo de instalação do Linux</li>
 </ul>
