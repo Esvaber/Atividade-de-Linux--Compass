@@ -32,8 +32,8 @@ Ao concluir o acesso, os seguintes passos devem ser feitos:
   <code>mkdir <i>nome-da-pasta</i></code>
   <li>Após a criação do diretório, cole o comando copiado do console AWS</li>
   <code>sudo mount -t efs -o tls fs-xxxxxxxx:/ <i>nome-da-pasta</i></code>
-  <li>Para garantir a montagem sempre na inicialização, usar o código abaixo</li>
-  <code>fs-xxxxxxxx:/ /mnt/efs efs _netdev,nofail,noresvport,tls,iam 0 0</code>
+  <li>Para garantir a montagem do EFS na inicialização, é necessário alterar o arquivo <i>/etc/fstab</i> e acrescentar a linha abaixo</li>
+  <code>fs-xxxxxxxx:/ <i>caminho/para/nome-da-pasta</i> efs _netdev,noresvport,tls,iam 0 0</code>
 </ul>
 
 ## Criar um diretório dentro do filesystem do NFS com meu nome
