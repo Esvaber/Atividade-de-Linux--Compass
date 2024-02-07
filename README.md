@@ -25,8 +25,8 @@ Aqui está todo o escopo do proheot. Ele está dividido em duas partes e seus t�
     <li>O script deve gerar 2 arquivos de saida: 1 para o serviço online e 1 para o serviço OFFLINE</li>
   </ul>
   <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/blob/main/Requisitos%20Linux/index.md#preparar-a-execu%C3%A7%C3%A3o-automatizada-do-script-a-cada-5-minutos"><li>Preparar a execução automatizada do script a cada 5 minutos</li></a>
-  <li>Fazer o versionamento da atividade</li>
-  <li>Fazer a documentação explicando o processo de instalação do Linux</li>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/releases"><li>Fazer o versionamento da atividade</li></a>
+  <a href="https://github.com/Esvaber/Atividade-de-Linux--Compass/tree/main/Requisitos%20Linux"><li>Fazer a documentação explicando o processo de instalação do Linux</li></a>
 </ul>
 
 <b><i>***Importante: Desligue a máquina quando não for utilizar, será descontado pontos de máquinas que permanecerem ligadas em períodos fora de uso.</b></i><br><br>
