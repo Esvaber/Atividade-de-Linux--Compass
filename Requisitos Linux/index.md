@@ -107,7 +107,7 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
 
 <p>Para automatizar o script usaremos o cronotab</p>
 <ul>
-  <li>Dentro da isntância, no terminal, usaremos o código</li>
+  <li>Dentro da instância, no terminal, usaremos o comando</li>
   <code>crontab -e</code>
   <li>Dentro do editor que será aberto, usaremos a linha abaixo para programa sua execução a cada 5 minutos</li>
   <code>*/5 * * * * /path/to/your/script.sh</code>
