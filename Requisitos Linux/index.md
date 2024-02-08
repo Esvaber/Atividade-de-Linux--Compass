@@ -77,8 +77,8 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
   <code>chmod +x script.sh</code>
   <li>A partir daí o código usado para o script segue</li>
   <pre>
-    
-    #!/bin/bash
+
+     #!/bin/bash
 
     #Cria um variável com a data no formato dia_mês_ano hh:mm:ss, corrigido para o fuso horário da minha região
     data=$(TZ='America/Sao_Paulo' date "+%d_%b_%Y_%T")
@@ -99,7 +99,6 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
     #Adiciona o resultado e o timestamp dentro do arquivo
     echo "$data" > "$arquivo"
     echo "O Apache está $status" >> "$arquivo"
-
   </pre>
 </ul>
 
