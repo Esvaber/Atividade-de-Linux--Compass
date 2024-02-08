@@ -77,6 +77,7 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
   <code>chmod +x script.sh</code>
   <li>A partir daí o código usado para o script segue</li>
   <pre>
+    
     #!/bin/bash
 
     #Cria um variável com a data no formato dia_mês_ano hh:mm:ss, corrigido para o fuso horário da minha região
