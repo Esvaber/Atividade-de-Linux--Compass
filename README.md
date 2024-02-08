@@ -1,7 +1,7 @@
 # Atividade-de-Linux--Compass
 Projeto para Bolsa de Estudos DevSecOps, da Compass Uol.
 
-Aqui está todo o escopo do proheot. Ele está dividido em duas partes e seus tópicos podem ser acessados abaixo.
+Aqui está todo o escopo do projeto. Ele está dividido em duas partes e seus tópicos podem ser acessados abaixo.
 
 <h1><b>Requisitos AWS</b></h1>
 
