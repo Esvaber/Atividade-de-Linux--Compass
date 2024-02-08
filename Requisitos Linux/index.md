@@ -77,28 +77,49 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
   <code>chmod +x script.sh</code>
   <li>A partir daí o código usado para o script segue</li>
   <pre>
-
-     #!/bin/bash
+    #!/bin/bash
 
     #Cria um variável com a data no formato dia_mês_ano hh:mm:ss, corrigido para o fuso horário da minha região
     data=$(TZ='America/Sao_Paulo' date "+%d_%b_%Y_%T")
-    
-    #Cria uma variável para o resultado e faz a verificação se o apache está ativo
+
+    #Cria uma variável para o resultado e para os arquivos que serão salvos nos NFS
     status=""
-    
+    arquivo1="/home/ec2-user/efs/esvaber/apache_ativo.txt"
+    arquivo2="/home/ec2-user/efs/esvaber/apache_inativo.txt"
+
+    #Checa se os arquivos existem; se não existirem, são criados
+    if [ ! -e "$arquivo1" ]
+    then
+        touch "$arquivo1"
+    fi
+
+
+    if [ ! -e "$arquivo2" ]
+    then
+        touch "$arquivo2"
+    fi
+
+    #Checa se o Apache está ativo e acrescenta informações ao arquivo correspondente
+    if [ ! -e "$arquivo1" ]
+    then
+        touch "$arquivo1"
+    fi
+
+
+    if [ ! -e "$arquivo2" ]
+    then
+        touch "$arquivo2"
+    fi
+
+    #Checa se o Apache está ativo e acrescenta informações ao arquivo correspondente
     if systemctl is-active "httpd" > /dev/null
     then
-            status="ativo"
+        status="ativo"
+        echo "$data ; O Apache está $status" >> "$arquivo1"
     else
-            status="inativo"
+        status="inativo"
+        echo "$data ; O Apache está $status" >> "$arquivo2"
     fi
-    
-    #Cria o arquivo que será salvo no NFS
-    arquivo="/home/ec2-user/efs/esvaber/apache_${status}_${data}.txt"
-    
-    #Adiciona o resultado e o timestamp dentro do arquivo
-    echo "$data" > "$arquivo"
-    echo "O Apache está $status" >> "$arquivo"
   </pre>
 </ul>
 
