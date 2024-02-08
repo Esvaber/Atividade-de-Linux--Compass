@@ -93,19 +93,6 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
         touch "$arquivo1"
     fi
 
-
-    if [ ! -e "$arquivo2" ]
-    then
-        touch "$arquivo2"
-    fi
-
-    #Checa se o Apache está ativo e acrescenta informações ao arquivo correspondente
-    if [ ! -e "$arquivo1" ]
-    then
-        touch "$arquivo1"
-    fi
-
-
     if [ ! -e "$arquivo2" ]
     then
         touch "$arquivo2"
