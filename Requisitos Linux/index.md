@@ -83,7 +83,7 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
     #Cria um variável com a data no formato dia_mês_ano hh:mm:ss, corrigido para o fuso horário da minha região
     data=$(TZ='America/Sao_Paulo' date "+%d_%b_%Y_%T")
 
-    #Cria uma variável para o resultado e para os arquivos que serão salvos nos NFS
+    #Cria uma variável para o resultado e para os arquivos que serão salvos no NFS
     status=""
     arquivo1="/home/ec2-user/efs/esvaber/apache_ativo.txt"
     arquivo2="/home/ec2-user/efs/esvaber/apache_inativo.txt"
@@ -117,6 +117,6 @@ Após o acesso da instância criada para o projeto, fiz os seguintes procediment
 <ul>
   <li>Dentro da instância, no terminal, usaremos o comando</li>
   <code>crontab -e</code>
-  <li>Dentro do editor que será aberto, usaremos a linha abaixo para programa sua execução a cada 5 minutos</li>
+  <li>Dentro do editor que será aberto, usaremos a linha abaixo para programar sua execução a cada 5 minutos</li>
   <code>*/5 * * * * /path/to/your/script.sh</code>
 </ul>
